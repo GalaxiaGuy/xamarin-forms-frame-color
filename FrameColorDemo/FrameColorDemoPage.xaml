@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FrameColorDemo" x:Class="FrameColorDemo.FrameColorDemoPage">
+    <ListView ItemsSource="{Binding}" SeparatorVisibility="None">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+				<ViewCell>
+					<ContentView BackgroundColor="{Binding}" Padding="48,12">
+                        <Frame Grid.Column="1" BackgroundColor="{Binding}" HasShadow="false">
+    						<ContentView BackgroundColor="Transparent"/>
+    					</Frame>
+					</ContentView>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+</ContentPage>
