@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameColorDemo.iOS", "iOS\F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameColorDemo.Droid", "Droid\FrameColorDemo.Droid.csproj", "{EA6CA3A5-2703-47C4-8640-0705590155B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameColorDemo.Mac", "FrameColorDemo.Mac\FrameColorDemo.Mac.csproj", "{31BBA3C6-D176-498C-AACA-877D41939FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,5 +55,17 @@ Global
 		{EA6CA3A5-2703-47C4-8640-0705590155B3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{EA6CA3A5-2703-47C4-8640-0705590155B3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{EA6CA3A5-2703-47C4-8640-0705590155B3}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Release|iPhone.Build.0 = Release|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{31BBA3C6-D176-498C-AACA-877D41939FDA}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
